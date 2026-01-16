@@ -240,8 +240,8 @@ section p {
 }
 
 .advantage-icon {
-  width: 80px;
-  height: 80px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   background-color: var(--primary);
   color: var(--white);
@@ -252,8 +252,8 @@ section p {
 }
 
 .advantage-icon svg {
-  width: 40px;
-  height: 40px;
+  width: 80px;
+  height: 80px;
 }
 
 .advantage-content {
@@ -335,13 +335,13 @@ footer a:hover {
   }
 
   .advantage-icon {
-    width: 70px;
-    height: 70px;
+    width: 140px;
+    height: 140px;
   }
 
   .advantage-icon svg {
-    width: 35px;
-    height: 35px;
+    width: 70px;
+    height: 70px;
   }
 
   .container {
