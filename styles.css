@@ -1,8 +1,8 @@
 /* HäkTrack Marketing Website Styles */
 
 :root {
-  --primary: #F68BA3;
-  --secondary: #6E8EF7;
+  --primary: #733543;
+  --secondary: #2C3963;
   --neutral-dark: #333;
   --neutral-light: #f5f5f5;
   --white: #ffffff;
@@ -83,7 +83,7 @@ nav .menu-toggle {
 
 /* Header / Hero Section */
 header.hero {
-  background: linear-gradient(135deg, rgba(246, 139, 163, 0.8) 0%, rgba(110, 142, 247, 0.8) 100%), url('images/Bild_Startseite.jpg');
+  background: linear-gradient(135deg, rgba(115, 53, 67, 0.8) 0%, rgba(44, 57, 99, 0.8) 100%), url('images/Bild_Startseite.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -227,6 +227,51 @@ section p {
   font-size: 0.9rem;
 }
 
+/* Advantage Items with Icons */
+.advantage-item {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.advantage-item:last-child {
+  margin-bottom: 0;
+}
+
+.advantage-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: var(--primary);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.advantage-icon svg {
+  width: 40px;
+  height: 40px;
+}
+
+.advantage-content {
+  flex: 1;
+}
+
+.advantage-left {
+  flex-direction: row;
+}
+
+.advantage-right {
+  flex-direction: row-reverse;
+}
+
+.advantage-content h3 {
+  margin-top: 0;
+}
+
 /* Footer */
 footer {
   background-color: var(--neutral-dark);
@@ -277,6 +322,26 @@ footer a:hover {
 
   .testimonials {
     grid-template-columns: 1fr;
+  }
+
+  .advantage-item {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+  }
+
+  .advantage-right {
+    flex-direction: column;
+  }
+
+  .advantage-icon {
+    width: 70px;
+    height: 70px;
+  }
+
+  .advantage-icon svg {
+    width: 35px;
+    height: 35px;
   }
 
   .container {
