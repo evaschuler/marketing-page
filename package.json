@@ -1,0 +1,14 @@
+{
+  "name": "haektrack-marketing",
+  "version": "1.0.0",
+  "description": "Marketing-Website für HäkTrack",
+  "scripts": {
+    "build": "echo 'No build step required for static site'"
+  },
+  "keywords": [
+    "marketing",
+    "static-site"
+  ],
+  "author": "",
+  "license": "MIT"
+}
