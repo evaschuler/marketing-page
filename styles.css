@@ -90,6 +90,10 @@ header.hero {
   color: var(--white);
   padding: 4rem 2rem;
   text-align: center;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 header.hero h1 {
