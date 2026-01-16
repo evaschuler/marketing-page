@@ -151,6 +151,36 @@ section p {
   line-height: 1.8;
 }
 
+/* Why Section with Image */
+.why-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.why-content h2 {
+  margin-top: 0;
+  text-align: left;
+}
+
+.why-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.why-image {
+  width: 100%;
+}
+
+.why-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
 /* Features Grid */
 .features-grid {
   display: grid;
@@ -347,6 +377,15 @@ footer a:hover {
 
   .container {
     padding: 0 1rem;
+  }
+
+  .why-section {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .why-content h2 {
+    text-align: center;
   }
 }
 
