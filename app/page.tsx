@@ -4,7 +4,7 @@ export default function Home() {
       <div className="text-center px-4">
         <div className="bg-white/80 backdrop-blur-sm rounded-3xl shadow-lg p-12 max-w-2xl mx-auto border border-pink-100">
           <h1 className="text-6xl font-bold mb-6 bg-gradient-to-r from-pink-300 via-purple-300 to-blue-300 bg-clip-text text-transparent">
-            Hallo Welt
+            Hallo Bärn!
           </h1>
           <p className="text-xl text-gray-600 mt-4">
             Willkommen auf meiner ersten Next.js Website!
