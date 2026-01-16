@@ -290,7 +290,7 @@ section p {
   width: 160px;
   height: 160px;
   border-radius: 50%;
-  background-color: var(--primary);
+  background-color: var(--secondary);
   color: var(--white);
   display: flex;
   align-items: center;
@@ -317,6 +317,80 @@ section p {
 
 .advantage-content h3 {
   margin-top: 0;
+}
+
+/* Features Page Specific Styles */
+.features-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-bottom: 4rem;
+  align-items: start;
+}
+
+.features-section.reverse {
+  grid-template-columns: 1fr 1fr;
+}
+
+.features-section.reverse .features-list {
+  order: 2;
+}
+
+.features-section.reverse .feature-image-placeholder {
+  order: 1;
+}
+
+.features-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.feature-row {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.features-icon-small {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: var(--secondary);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.features-icon-small svg {
+  width: 40px;
+  height: 40px;
+}
+
+.feature-text {
+  flex: 1;
+}
+
+.feature-text h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.feature-image-placeholder {
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  background-color: var(--neutral-light);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-light);
+  font-style: italic;
+  position: sticky;
+  top: 2rem;
 }
 
 /* Footer */
@@ -402,6 +476,26 @@ footer a:hover {
 
   .why-content h2 {
     text-align: center;
+  }
+
+  .features-section {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .features-icons {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .feature-item {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .feature-item.reverse {
+    direction: ltr;
   }
 }
 
