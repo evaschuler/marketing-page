@@ -104,21 +104,23 @@ header.hero .claim {
   opacity: 0.95;
 }
 
-header.hero .cta-button {
+/* CTA Button - Allgemeine Styles */
+.cta-button {
   display: inline-block;
-  background-color: var(--white);
-  color: var(--primary);
+  background-color: var(--secondary);
+  color: var(--white);
   padding: 1rem 2rem;
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
   margin-top: 1rem;
 }
 
-header.hero .cta-button:hover {
+.cta-button:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  background-color: rgba(44, 57, 99, 0.85);
 }
 
 /* Main Content */
