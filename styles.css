@@ -167,6 +167,10 @@ section p {
   line-height: 1.8;
 }
 
+.features-page section.container > p {
+  text-align: center;
+}
+
 /* Why Section with Image */
 .why-section {
   display: grid;
