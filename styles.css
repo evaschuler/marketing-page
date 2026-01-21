@@ -204,6 +204,10 @@ section p {
   margin-top: 3rem;
 }
 
+.faq-page main > section:first-child .faq-list {
+  margin-top: 3rem;
+}
+
 /* Why Section with Image */
 .why-section {
   display: grid;
