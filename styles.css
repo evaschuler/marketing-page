@@ -201,7 +201,7 @@ section p {
 .features-page main > section:first-child h2,
 .about-page main > section:first-child h2,
 .index-page main > section:first-child h2 {
-  margin-top: 0;
+  margin-top: 3rem;
 }
 
 /* Why Section with Image */
