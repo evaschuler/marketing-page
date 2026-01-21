@@ -199,7 +199,8 @@ section p {
 }
 
 .features-page main > section:first-child h2,
-.about-page main > section:first-child h2 {
+.about-page main > section:first-child h2,
+.index-page main > section:first-child h2 {
   margin-top: 0;
 }
 
