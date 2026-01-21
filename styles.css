@@ -523,16 +523,26 @@ footer a:hover {
   }
 
   .features-section {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     gap: 2rem;
   }
   
   .features-section .features-list {
-    order: 1;
+    order: 1 !important;
   }
   
   .features-section .feature-image-placeholder {
-    order: 2;
+    order: 2 !important;
+    position: relative;
+    top: 0;
+    height: auto;
+    overflow: visible;
+  }
+  
+  .features-section .feature-image-placeholder img {
+    height: auto;
+    width: 100%;
   }
 
   .features-icons {
@@ -633,16 +643,17 @@ footer a:hover {
 
 @media (max-width: 768px) {
   .benefits-section {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     gap: 2rem;
   }
   
   .benefits-section .benefits-list {
-    order: 1;
+    order: 1 !important;
   }
   
   .benefits-section .benefit-image {
-    order: 2;
+    order: 2 !important;
   }
 }
 
