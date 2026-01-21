@@ -198,7 +198,8 @@ section p {
   text-align: center;
 }
 
-.features-page main > section:first-child h2 {
+.features-page main > section:first-child h2,
+.about-page main > section:first-child h2 {
   margin-top: 0;
 }
 
