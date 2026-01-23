@@ -1,8 +1,10 @@
 /* HäkTrack Marketing Website Styles */
 
 :root {
-  --primary: #733543;
+  --primary: #da6883;
   --secondary: #2C3963;
+  --icon-color: #737aa9;
+  --accent-color: #f3bab4;
   --neutral-dark: #333;
   --neutral-light: #f5f5f5;
   --white: #ffffff;
@@ -151,7 +153,7 @@ header.hero .claim {
 .cta-button:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-  background-color: rgba(115, 53, 67, 0.8);
+  background-color: rgba(243, 186, 180, 0.8);
 }
 
 /* Hero Button - Weißer Hintergrund */
@@ -183,7 +185,7 @@ section h2 {
 
 section h3 {
   font-size: 1.5rem;
-  color: var(--secondary);
+  color: var(--icon-color);
   margin-bottom: 1rem;
   margin-top: 2rem;
 }
@@ -274,7 +276,7 @@ section p {
   background-color: var(--neutral-light);
   margin-bottom: 1rem;
   border-radius: 8px;
-  border-left: 4px solid var(--primary);
+  border-left: 4px solid var(--accent-color);
   overflow: hidden;
 }
 
@@ -330,7 +332,7 @@ section p {
   background-color: var(--neutral-light);
   padding: 2rem;
   border-radius: 8px;
-  border-top: 4px solid var(--secondary);
+  border-top: 4px solid var(--accent-color);
 }
 
 .testimonial blockquote {
@@ -360,7 +362,7 @@ section p {
   width: 160px;
   height: 160px;
   border-radius: 50%;
-  background-color: var(--secondary);
+  background-color: var(--icon-color);
   color: var(--white);
   display: flex;
   align-items: center;
@@ -426,7 +428,7 @@ section p {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background-color: var(--secondary);
+  background-color: var(--icon-color);
   color: var(--white);
   display: flex;
   align-items: center;
@@ -640,7 +642,7 @@ footer a:hover {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background-color: var(--secondary);
+  background-color: var(--icon-color);
   color: var(--white);
   display: flex;
   align-items: center;
@@ -660,6 +662,7 @@ footer a:hover {
 .benefit-text h3 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+  color: var(--icon-color);
 }
 
 .benefit-image {
