@@ -23,7 +23,7 @@ Im Statistik-Dashboard sehe ich alle Projekte sowie die insgesamt gehäkelten St
 
 Die Website soll über HäkTrack informieren und dazu motivieren, eigene Häkelprojekte zu tracken. Auf der Startseite werden die Vorteile aufgezeigt und einige Testimonials erwähnt. Unter **Features** wird die App mit praktischen Screenshots erklärt. Auf der Seite **FAQs** werden die wichtigsten Fragen beantwortet. Unter **Über uns** sind Vision und Motivation dargestellt.
 
-Die gesamte Website enthält viele Fotos – die meisten stammen von Envato. Das Foto der **«Gründer/innen»** auf der Über-uns-Seite habe ich mit Nano Banana generiert. Am Ende jeder Seite befindet sich ein Call-to-Action, der direkt auf die App verweist.
+Die gesamte Website enthält viele Fotos – die meisten stammen von Envato. Das Foto der «Gründer/innen» auf der Über-uns-Seite habe ich mit Nano Banana generiert. Am Ende jeder Seite befindet sich ein Call-to-Action, der direkt auf die App verweist.
 
 ---
 
@@ -51,7 +51,7 @@ Ausserdem wurde mir erneut bewusst, wie viele verschiedene KI-Tools es gibt und 
 
 ---
 
-## Wichtigsten Prompts
+## Wichtigste Prompts
 
 ### App
 
@@ -197,7 +197,7 @@ Optional weitere Seiten: About, Pricing, Blog-Article, Use Cases.
 - index.html: füge auf der startseite bei den Punkten «Organisation», «Motivation» und «Einfachheit» jeweils ein Icon hinzu. Es soll in einem runden Kreis neben dem Text stehen. Bei Organisation und Einfachheit links, bei Motivation rechts.
 - index.html: ich möchte den ganzen block «so funktioniert's» nicht haben. Füge stattdessen das Foto «Mockups» aus dem image-Ordner ein. positioniere es neben dem Block «Warum HäkTrack?»
 - bitte füge auf dei Seiten @about.html und @features.html auch noh ein schema.org ein
-- features.html: füge für die h3-elemente passende icons ein. sie sollen gleich aussehen wie die icons auf der startseite nur. sie sollen auch gleich angeordnet sein (neben dem text, rechts-links abwechselnd)
+- features.html: füge für die h3-elemente passende icons ein. sie sollen gleich aussehen wie die icons auf der startseite. sie sollen auch gleich angeordnet sein (neben dem text, rechts-links abwechselnd)
 - ich möchte die icons auf der @features.html seite doch etwas anders: sie sollen nur halb so gross sein und alle untereinander. der text soll aber nur über die halbe seite gehen. erstelle auf der anderen seite platzhalter für bilder. diese bilder sollen immer einmal rechts und einmal links sein.
 - features.html: bei den h2 Stunden-Tracking und übersichtliche statistik möchte ich das bild gerne rechts der auflistung
 - &lt;header&gt; .hero ich möchte hier statt das bild @images/Bild_Startseite.jpg das video namens «video hero picture» aus dem ordner video. auf allen seiten.
@@ -208,7 +208,7 @@ Optional weitere Seiten: About, Pricing, Blog-Article, Use Cases.
 - features.html: &lt;img&gt; img &lt;img&gt; img &lt;img&gt; img &lt;img&gt; img die bilder sind jetzt hier auf mobile ziemlich gross. kannst du sie auf der mobile ansicht etwas kleiner machen, auf der desktop aber so lassen wie sie sind?
 - faq.html: bitte organisiere die fragen hier in aufklappbaren menüs. also die frage offen und aufklappbar die antwort darauf.
 - about.html: &lt;div&gt; .advantage-item &lt;div&gt; .advantage-item &lt;div&gt; .advantage-item die icons und texte analog @index.html aufbauen.
-- about.html: &lt;article&gt; article füge links von diesem container ein das bild about us aus dem ordner @images hinzu. in mobile ansicht soll es unter dem text angezeigt werden
+- about.html: &lt;article&gt; article füge links von diesem container das bild about us aus dem ordner @images hinzu. in mobile ansicht soll es unter dem text angezeigt werden
 - &lt;footer&gt; footer tausche die zwei p-tags hier. dass die verlinkungen oben und das rechtliche unten ist. auf allen seiten.
 - auf der app https://haek-track.replit.app/ habe ich neben dem titel «HäkTrack» noch dieses kleine wollknäuel-icon:  
   `&lt;span class=»inline-block» style=»transform: translateY(-1.7e-06px);»&gt;🧶&lt;/span&gt;` kannst du das hier auch neben den Titel setzen? &lt;a&gt; .logo
@@ -223,7 +223,7 @@ Die GEO-Strategie basiert auf einer klaren und semantisch sauberen Struktur. Jed
 
 Ein weiterer Bestandteil der GEO-Strategie ist der Einsatz von Schema.org-Markup. Die Seiten enthalten JSON-LD-Strukturen, damit LLMs zusätzliche Informationen erhalten.
 
-Die Haupt-Keywords für SEO sind:
+Die Haupt-Keywords sind:
 
 - Häkeln
 - Häkelprojekte
@@ -238,7 +238,7 @@ Diese Keywords sind in Überschriften, Fliesstext und Metadaten enthalten.
 
 Ich startete als völlige Neuling in dieses Modul und die Projektarbeit. Meine bisherigen Erfahrungen mit Vibe Coden waren gleich null. Nach dem ersten Webinar fragte ich mich kurz, ob ich die richtige Wahl getroffen hatte – so viele Begriffe, die mir eigentlich etwas sagen sollten, ich aber keine Ahnung hatte, was sie bedeuten…
 
-Nach dem ersten Präsenztag und den ersten Erfahrungen mit dem App-Bauen kam die Freude und der Spass auf. Mit der Website und mit Cursor dann sogar noch mehr. Ich mochte es bereits während des Studiums im Modul Interaktive Medien, Websites zu bauen. Wenn etwas nicht funktioniert, dem Fehler auf den Grund gehen und das Problem lösen. Es ist fast wie Kreuzwort-oder sonstiges Rätseln. Am Ende sieht die Website zwar selten genau so aus wie im Kopf, aber meistens ist das sogar ein Vorteil.
+Nach dem ersten Präsenztag und den ersten Erfahrungen mit dem App-Bauen kam die Freude und der Spass auf. Mit der Website und mit Cursor dann sogar noch mehr. Ich mochte es bereits während des Studiums im Modul Interaktive Medien, Websites zu bauen. Wenn etwas nicht funktioniert, dem Fehler auf den Grund zu gehen und das Problem zu lösen. Es ist fast wie Kreuzwort- oder sonstiges Rätseln. Am Ende sieht die Website zwar selten genau so aus wie im Kopf, aber meistens ist das sogar ein Vorteil.
 
 Für zukünftige Projekte nehme ich mir mit: Vor dem Prompten etwas mehr konzeptionelle Arbeit zu leisten – insbesondere ein Gestaltungskonzept zu definieren. Ich bin diesmal relativ planlos gestartet. Dadurch musste ich die App grundsätzlich umstrukturieren. Auch bei der Website habe ich viele Tokens verbraucht, weil ich vieles ausprobiert habe – vor allem was das Design (die Farben!) betraf. Andererseits ist dieses Projekt ja auch eine Spielwiese, um Erfahrungen zu sammeln.
 
